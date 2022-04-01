@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universty Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/a5312b7422.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+
+    <!-- -----blog page content----- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facilis totam exercitationem
+                    voluptas sapiente quam fuga odio ipsa laborum corporis, eius numquam, esse asperiores nihil deleniti
+                    cum aperiam quas? Consectetur.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minima expedita, nihil blanditiis at
+                    dignissimos quaerat sunt debitis placeat dicta officia pariatur culpa recusandae sit saepe id itaque
+                    accusantium voluptatum.
+                    Corrupti non in possimus blanditiis porro similique placeat obcaecati eligendi suscipit veniam id,
+                    ad tempora aperiam dolorem? Est in quia magni ea, et eius pariatur, rem blanditiis quaerat quam
+                    esse? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni ab deleniti est eum cumque!
+                    Alias accusamus doloremque corporis impedit non pariatur cum provident eveniet, commodi quaerat
+                    labore voluptate, ad dignissimos!</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, aliquid incidunt quos magni
+                    voluptatibus nobis doloribus distinctio ullam aliquam, voluptatum obcaecati, praesentium quod. Atque
+                    architecto delectus eum. Cupiditate, velit at!
+                    Minima rem repudiandae veniam quam magnam, perspiciatis nobis, eum doloribus accusantium at nemo,
+                    quas est iste. Voluptatibus expedita maxime quo quod nulla hic eaque aut, at ipsa, sit cupiditate
+                    quibusdam!
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat tempora neque ad fugiat,
+                    blanditiis sint quae reiciendis beatae ducimus pariatur eaque, rerum nemo cum nam excepturi, earum
+                    delectus esse quas.
+                </p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button class="hero-btn red-btn" type="submit">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- ----- Footer ----- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem officiis, animi et laborum alias <br>
+            fugiat
+            praesentium reiciendis. Molestiae, nemo molestias!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Fatih Çelebi</p>
+    </section>
+
+
+    <!-- ----JavaScript for Toggle Menu---- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
